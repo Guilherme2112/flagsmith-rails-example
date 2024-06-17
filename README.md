@@ -7,6 +7,8 @@ Change the following ENVs at .env file (and don't commit)
 
 Now, boot the system with `bundle exec rails s`...strangely, the issue described in cluster mode does not happen if you use `bundle exec puma -t M:N -w:X`
 
+You will receive a reponse with the flag status from the client by acessing `localhost:3000`
+
 # Rails default bla-bla-bla
 
 This README would normally document whatever steps are necessary to get the
